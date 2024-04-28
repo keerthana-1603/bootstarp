@@ -1,0 +1,69 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------navbar-------- */
+.nav-head{
+    font-size: 25px;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+li{
+    padding: 5px;
+}
+.nav-item .nav-link{
+    font-size:15px;
+    font-weight: bold;
+    border: 2px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+/* -------home-------- */
+span{
+    color:palevioletred;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+/* -------about------ */
+#about img{
+    width: 50rem;
+    height: 400px;
+}
+
+/* ---------services------- */
+.card img{
+    width: 350px;
+    height: 300px;
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+/* ---------contect---------- */
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -1px -1px .05px rgba(0,0,0,.2);
+    border-radius: 25px;            
+}
+
